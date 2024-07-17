@@ -10,7 +10,7 @@ The dashboard requires a number of configuration changes to be made before start
 * Licensed Application: List of one or more applications that searches `C:\Program Files` and `C:\Program Files (x86)` directories for `.exe` and the last accessed date. This is helpful when licensing renewals are approaches and need to find if a user has been using a licensed application.
 * DashboardName: Name of the dashboard. This will also serve as the log path for all infomational and error logging. The default log path is set to `C:\ProgramData\PowerShellUniversal\logs\<DashboardName>`
 * UPNDomainSuffix (Optional): This is used if the dashboard will search for Intune devices via UserName/UserPrincipalName.
-* InternalDomainName: Used when querying NetConnectionProfiles. This will tell if any net adapters are connected to a domain autenticated network.
+* InternalDomainName: Used when querying NetConnectionProfiles. This will tell if any net adapters are connected to a domain autenticated network. Tsst
 
 ## Searching Intune Devices
 
